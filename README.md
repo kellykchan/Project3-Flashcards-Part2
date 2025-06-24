@@ -2,7 +2,7 @@
 
 Submitted by: **Kelly Chan**
 
-This web app: **In Flashcards! Part 1, I chose pairs of items to store in a flashcard-like format that users can use to study, learn something new, or play a guessing game. This week, in Part 2, I extended the functionality of your web app! I built features that allow users to enter an answer (with exact or fuzzy matching) and move backwards and forwards through the list of cards.**
+This web app: **Labubu Learning lets you test how well you know Labubu through a set of fun, flip-able flashcards. Each card has a question on the front and the answer (sometimes with a photo!) on the back. It's a quick and playful way to learn more about these fun little characters. In Part 1, I chose pairs of items to store in a flashcard-like format that users can use to study, learn something new, or play a guessing game. This week, in Part 2, I extended the functionality of your web app! I built features that allow users to enter an answer (with exact or fuzzy matching) and move backwards and forwards through the list of cards.**
 
 Time spent: **2.5** hours spent in total
 
