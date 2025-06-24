@@ -1,0 +1,129 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.flashcard {
+  cursor: pointer;
+  width: 700px;
+  height: 400px;
+  margin: 30px auto;
+  padding: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight:bold;
+}
+
+.flashcard.easy {
+  background-color: #6fcf97;
+}
+
+.flashcard.medium {
+  background-color: #f2c94c;
+}
+
+.flashcard.hard {
+  background-color: #eb5757;
+}
+
+.flashcard.flipped.easy {
+  background-color: #57b781;
+}
+
+.flashcard.flipped.medium {
+  background-color: #e2b93f;
+}
+
+.flashcard.flipped.hard {
+  background-color: #d14f4f;
+}
+
+.card-image {
+  max-width: 100%;
+  max-height: 250px;
+  object-fit: contain;
+}
+
+.navigation-buttons button {
+  padding: 0.6rem 1.8rem;
+  margin: 5px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  background-color: #f1f1f1;
+  transition: background-color 0.2s ease;
+}
+
+.navigation-buttons button.disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.navigation-buttons button:hover:not(.disabled) {
+  background-color: #cbcaca;
+}
+
+.guess-section {
+  margin: 1rem 0;
+}
+
+.guess-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+.guess-input.correct {
+  border-color: #4CAF50;
+  background-color: #e6f9e6;
+}
+
+.guess-input.incorrect {
+  border-color: #f44336;
+  background-color: #ffe6e6;
+}
+
+.submit-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.submit-button:hover{
+  background-color: #cbcaca;
+}
+
+.feedback {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.feedback.correct {
+  color: green;
+}
+
+.feedback.incorrect {
+  color: red;
+}
+
+.streak-info {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.streak-info h3 {
+  margin: 0;
+}
